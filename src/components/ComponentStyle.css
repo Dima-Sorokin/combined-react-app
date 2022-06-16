@@ -1,0 +1,141 @@
+.plusImage {
+    width: 110px;
+    border-radius: 100%;
+    box-shadow: 1px 1px 3px;
+}
+
+.link :hover {
+    box-shadow: 3px 3px 5px;
+}
+
+.link :active {
+    box-shadow: 3px 3px 5px inset;
+    
+}
+
+.newRoomForm {
+    text-align: left;
+    width: fit-content;
+    border: 1px solid rgb(57, 57, 57);
+    box-shadow: 3px 3px 3px;
+    margin: auto;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.newRoomForm input {
+    font-size: medium;
+}
+
+.formButton button {
+    border: 1px solid black;
+    border-radius: 5px;
+    font-size: large;
+    font-weight: bolder;
+    text-decoration: none;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.formButton :hover {
+    box-shadow: 3px 3px 3px;
+    cursor: pointer;
+}
+
+.formButton :active {
+    box-shadow: 3px 3px 3px inset;
+}
+
+.roomBox {
+    display: inline-block;
+    margin: 3px;
+    padding: 10px;
+    border-radius: 10px;
+    width: fit-content;
+    height: max-content;
+    /* border: 3px solid rgb(50, 50, 50); */
+    box-shadow: 1px 1px 3px;
+}
+
+.roomBox:hover {
+    cursor: pointer;
+    box-shadow: 3px 3px 3px;
+}
+
+.roomBox:active {
+    box-shadow: 2px 2px 2px inset;
+}
+
+.roomBigBox {
+    background-color: rgba(255, 255, 255, 0.316);
+    display: inline-block;
+    margin: 3px;
+    padding: 30px;
+    border-radius: 7px;
+    width: fit-content;
+    height: max-content;
+    text-align: left;
+    box-shadow: 5px 5px 10px inset;
+}
+
+button {
+    display: block;
+    margin: auto;
+    padding: 4px;
+    font-weight: bolder;
+    font-size: 20px;
+    border-radius: 5px;
+    background-color: whitesmoke;
+    width: 100%;
+}
+
+button:hover {
+    cursor: pointer;
+    box-shadow: 3px 3px 3px;
+}
+
+button:active {
+    box-shadow: 3px 3px 3px inset;
+}
+
+select {
+    font-size: 20px;
+    background-color: rgba(255, 255, 255, 0.541);
+    border: 2px solid black;
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px;
+}
+
+select option {
+    color: black;
+}
+
+select:hover {
+    cursor: pointer;
+}
+
+ol {
+    margin: 0%;
+    padding: 0%;
+}
+
+.applLine {
+    margin: 0%;
+    margin-bottom: 5px;
+    width: 200px;
+    padding: 5px;
+    border: 1px solid black;
+    border-radius: 4px;
+}
+
+.applLine:hover {
+    cursor: pointer;
+
+}
+
+.applLine:active {
+    border: 1px solid yellow;
+}
