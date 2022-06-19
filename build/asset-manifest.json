@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/Dima-Sorokin/combined-react-app.git/static/css/main.578ab09a.css",
-    "main.js": "/Dima-Sorokin/combined-react-app.git/static/js/main.aeb31469.js",
-    "static/js/787.c0d82e8b.chunk.js": "/Dima-Sorokin/combined-react-app.git/static/js/787.c0d82e8b.chunk.js",
-    "static/media/icon-plus-15.jpg": "/Dima-Sorokin/combined-react-app.git/static/media/icon-plus-15.025a2e506ef2e89b3e90.jpg",
-    "index.html": "/Dima-Sorokin/combined-react-app.git/index.html",
-    "main.578ab09a.css.map": "/Dima-Sorokin/combined-react-app.git/static/css/main.578ab09a.css.map",
-    "main.aeb31469.js.map": "/Dima-Sorokin/combined-react-app.git/static/js/main.aeb31469.js.map",
-    "787.c0d82e8b.chunk.js.map": "/Dima-Sorokin/combined-react-app.git/static/js/787.c0d82e8b.chunk.js.map"
+    "main.css": "/combined-react-app/static/css/main.578ab09a.css",
+    "main.js": "/combined-react-app/static/js/main.6acf36d9.js",
+    "static/js/787.c0d82e8b.chunk.js": "/combined-react-app/static/js/787.c0d82e8b.chunk.js",
+    "static/media/icon-plus-15.jpg": "/combined-react-app/static/media/icon-plus-15.025a2e506ef2e89b3e90.jpg",
+    "index.html": "/combined-react-app/index.html",
+    "main.578ab09a.css.map": "/combined-react-app/static/css/main.578ab09a.css.map",
+    "main.6acf36d9.js.map": "/combined-react-app/static/js/main.6acf36d9.js.map",
+    "787.c0d82e8b.chunk.js.map": "/combined-react-app/static/js/787.c0d82e8b.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.578ab09a.css",
-    "static/js/main.aeb31469.js"
+    "static/js/main.6acf36d9.js"
   ]
 }
