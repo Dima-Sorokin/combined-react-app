@@ -10,7 +10,7 @@ export default function Home(props) {
         if (props.roomsData) {
             return (props.roomsData.map((room) => {
                 return (
-                    <Link to={'room/' + room.roomName} key={data} >
+                    <Link to={'/smarthouse/room/' + room.roomName} key={data} >
                         <div className='roomBox' style={{ border: '4px solid '+ room.roomColor }}  >
                             <h2>{room.roomType} name {room.roomName}</h2>
                         </div>
@@ -23,11 +23,12 @@ export default function Home(props) {
     }
     return (
         <div>
+            <h1>Smart House</h1>
             <br />
             <br />
             {viewRooms()}
             <br /><br />
-            <Link to={'/addRoom'} className='link' ><img className='plusImage' src={require('../pictures/icon-plus-15.jpg')} alt={'Plus'} /></Link>
+            <Link to={'/smarthouse/addRoom'} className='link' ><img className='plusImage' src={require('../smarthouse/pictures/icon-plus-15.jpg')} alt={'Plus'} /></Link>
             <Outlet />
             
         </div>

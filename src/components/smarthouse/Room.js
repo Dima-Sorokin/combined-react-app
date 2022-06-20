@@ -89,6 +89,7 @@ export default function Room(props) {
     const showAppliance = (item) => {
         return (
             <>
+            
                 <h2>Room Appliance:</h2>
                 <ol>
                     {
@@ -104,6 +105,7 @@ export default function Room(props) {
     }
     return (
         <>
+        <h1>Smart House</h1>
             {showRoom()}
         </>
     )

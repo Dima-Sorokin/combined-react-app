@@ -1,2 +1,18 @@
-
+.navbar{
+    background-color: brown;
+    display: flex;
+    padding: 3px;
+    box-shadow: 1px 1px 1px ;
+}
+.navbar a{
+    background-color: aliceblue;
+    float: left;
+    padding: 5px;
+    border-radius: 3px;
+    font-size: larger;
+    text-shadow: 1px 1px 1px grey;
+    box-shadow: 1px 1px 1px ;
+    margin: 3px;
+    
+}
 
