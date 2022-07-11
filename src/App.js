@@ -6,6 +6,7 @@ import Home from './components/smarthouse/Home';
 import Room from './components/smarthouse/Room';
 import Sudoku from './components/sudoku/Sudoku'
 import React, { useState } from 'react';
+import HomePage from './HomePage';
 
 
 function App() {
@@ -14,12 +15,14 @@ function App() {
   return (
     <>
       <nav className='navbar'>
+        <Link to={`/combined-react-app`}>Home</Link>
         <Link to={`/smarthouse`}>Smart House</Link>
         <Link to={`/sudoku`} > Sudoku</Link>
         {/* <Link >Market Shop</Link> */}
       </nav>
       <Routes>
-        <Route defoult exact path='/smarthouse' element={<Home roomsData={roomsData} />} />
+        <Route defoult exact path='/combined-react-app' element={<HomePage/>}/>
+        <Route exact path='/smarthouse' element={<Home roomsData={roomsData} />} />
         <Route exact path='/smarthouse/addRoom' element={<AddRoom roomsData={roomsData} setRoomsData={setRoomsData} />} />
         <Route exact path='/smarthouse/room' element={<Room roomsData={roomsData} setRoomsData={setRoomsData} />} >
           <Route exact path=':data' element={<Room />} />

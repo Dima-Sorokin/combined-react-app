@@ -1,5 +1,5 @@
 .navbar{
-    background-color: brown;
+    background-color: rgb(51, 136, 5);
     display: flex;
     padding: 3px;
     box-shadow: 1px 1px 1px ;
@@ -12,7 +12,11 @@
     font-size: larger;
     text-shadow: 1px 1px 1px grey;
     box-shadow: 1px 1px 1px ;
-    margin: 3px;
-    
+    margin: 3px; 
 }
-
+.navbar a:hover{
+    box-shadow: 3px 3px 3px ;
+}
+.navbar a:active{
+    box-shadow: 3px 3px 3px inset;
+}
